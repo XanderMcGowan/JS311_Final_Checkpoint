@@ -1,0 +1,13 @@
+{
+    "name": "Final_Checkpoint",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "argon2": "^0.30.3",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.1",
+        "mysql": "^2.18.1"
+    }
+}

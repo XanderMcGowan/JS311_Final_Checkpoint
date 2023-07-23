@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>JS311_Final_Checkpoint</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>JS311_Final_Checkpoint</h1>
+        <p>Listed below are the routes that are facilitated by the backend</p>
+        <ul>
+            <li>post("/photo")
+                <p>Allows logged-in users to post a photo. User will provide the photo, text, and two letter country code.</p>
+            </li>
+            <li>post("/register")
+                <p>Allows user to register for access to all the paths. </p>
+            </li>
+            <li>post("/login")
+                <p>Allows user to receive JWT for proper authentication</p>
+            </li>
+            <li>get("/timezones")
+                <p>Allows user to see list of timezones</p>
+            </li>
+            <li>get("/users")
+                <p>Allow users to see list of users</p>
+            </li>
+            <li>get("/photo/:id")
+                <p>Allows user to see the photos of a single user</p>
+            </li>
+            <li>get("/photo/timezone/:id")
+                <p>allows user to view all photos within in a timezone</p>
+            </li>
+            <li>delete("/photo/:id")
+                <p>Allows user to delete photo that belongs to the user</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
